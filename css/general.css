@@ -1,0 +1,122 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++
++ Program Name : NYSC EDO Allowance Software   +
++ Programmer   : IKPEAMA CHUKWUDI KENNETH	   +
++ Phone Number : 08068450263				   +
++ Start Date   : 16TH MAY, 2013				   +
++ End Date     : 							   +
++ Place		   : AIRPORT ROAD BENIN CITY	   +
++ State Code   : ED/13A/0862			++++++++
++										+
++										+
++										+
++++++++++++++++++++++++++++++++++++++++++
+
+*/
+body{
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-size:14px;
+}
+#header {
+	font-weight:bold;
+	font-size: 40px;
+	color: #CCCCCC;
+	background-color: #FFF;
+	text-align: center;
+	height: 100px;
+	box-shadow:2px 2px #CCC;
+	line-height:100px;
+	letter-spacing:5px;
+}
+#body1{
+	width:75%;
+	margin:auto;
+	border:1px solid #CCC;
+	box-shadow: 0 0 8px #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	-moz-box-shadow: 0 0 8px #D0D0D0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+.loginTable{
+	border:5px solid #666;
+	position:relative;
+	left:350px;
+	height:150px;
+	margin:50px 0 50px 0;
+	background:#FFFF80;
+	border-radius:5px;
+	box-shadow: 0 0 8px #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	-moz-box-shadow: 0 0 8px #D0D0D0;
+}
+.textField{
+	border:1px solid #666;
+	height:25px;
+	width:200px;
+	padding:2px;
+	border-radius:5px;
+}
+.button{
+	border:1px solid #000;
+	color:#FFF;
+	background:#666;
+	padding:3px;
+	width:80px;
+	font-weight:bold;
+	cursor:pointer;
+	border-radius:5px;
+}
+.italicBold{
+	font-weight:bold;
+	font-style:oblique;
+}
+.error{
+	text-align:center;
+	color:#F30;
+}
+a,button{
+	text-decoration:none;
+	cursor:pointer;
+}
+#footer{
+	height:200px;
+	color:#272727;
+	background:#AAA;
+}
+.pagination{
+	margin-bottom:5px;
+}
+.pagination a{
+	color:#000;
+	display:inline-block;
+	padding:0 2px;
+}
+.pagination a:hover{
+	color:#FFF;
+	background:#666;
+}
+.no-error{
+	color:#060;
+}
+.downloadLinks{
+	position:relative;
+	top:10px;
+	text-align:left;
+	left:10px;
+}
+.downloadLinks a{
+	font-size:18px;
+	display:block;
+	width:400px;
+	height:25px;
+	background-color:#CCC;
+	color:#333;
+	padding-left:10px;
+}
+.downloadLinks a:hover{
+	text-decoration:underline;
+	background:#BBB;
+}

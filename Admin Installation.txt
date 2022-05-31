@@ -1,0 +1,10 @@
+INSTALLATION
+C:\Windows\System32\drivers\etc
+1. Change folder name to nyscedo
+2. Change system and application folder name
+3. Update system and application folder name in index.php and also change to produnction mode
+4. Delete ajaxresponse.php inside scripts/ajaxResponse.php
+5. Delete User_guide
+6. Change root directory in .htaccess file if not done before
+7. Change localhost if not done before
+8. Change root directory in apache's httpd.conf file if not done before

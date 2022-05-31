@@ -1,0 +1,106 @@
+/* CSS Document */
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++
++ Program Name : NYSC EDO Allowance Software   +
++ Programmer   : IKPEAMA CHUKWUDI KENNETH	   +
++ Phone Number : 08068450263				   +
++ Start Date   : 16TH MAY, 2013				   +
++ End Date     : 							   +
++ Place		   : AIRPORT ROAD BENIN CITY	   +
++ State Code   : ED/13A/0862			++++++++
++										+
++										+
++										+
++++++++++++++++++++++++++++++++++++++++++
+
+*/
+#adminHeader {
+	height: 50px;
+	border:1px solid #CCC;
+	padding:5px 0px 5px 0px;
+	position:relative;
+	box-shadow: 0 0 8px #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	-moz-box-shadow: 0 0 8px #D0D0D0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+#adminHeader table{
+	position:relative;
+	top:25px;
+}
+button{
+	width:150px;
+}
+#cover {
+	width:96%;
+	height:700px;
+	margin:auto;
+}
+.dropList{
+	border:1px solid #CCC;
+}
+.dropListTable{
+	position:relative;
+	top:5px;
+}
+.dataTable{
+	border:1px solid #000;
+	position:relative;
+	top:10px;
+	border-collapse:collapse;
+	margin-bottom:50px;
+	width:99%;
+}
+.alignLeft{
+	text-align:left;
+}
+.loading{
+	position:relative;
+	top:0px;
+	margin:auto;
+	display:none;
+}
+.tableHead{
+	font-weight:bold;
+	background:#CCC;
+	text-align:center;
+}
+input#go{
+	width:0px;
+	height:0px;
+	position:relative;
+	top:-1000px;
+}
+input#search{
+	border:1px solid #CCC;
+	height:20px;
+	width:150px;
+	padding:2px;
+	border-radius:5px;
+	background:url(../images/search_img.png) no-repeat center right;
+	padding-right:5px;
+}
+tr.trHover:hover{
+	background:#DDFAFF;
+	cursor:pointer;
+}
+.clearanceTable{
+	border:none;
+	border-collapse:collapse;
+}
+.clearanceTable tr{
+	border-bottom:1px solid #EEE;
+	cursor:pointer;
+}
+.clearanceTable tr.hoverRow:hover{
+	background:#DDFAFF;
+}
+.lastLogin{
+	margin: 0px;
+	border-bottom: 1px solid #D0D0D0;
+	box-shadow: 0 0 4px #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	-moz-box-shadow: 0 0 8px #D0D0D0;
+	padding:0 5px 0 5px;
+}
